@@ -1,0 +1,11 @@
+{
+  "name": "@antdv/pro-card",
+  "version": "0.0.1",
+  "description": "@antdv/pro-card",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "ant-design-vue": "2.x",
+    "vue": "^3.x"
+  }
+}

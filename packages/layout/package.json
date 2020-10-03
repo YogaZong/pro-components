@@ -1,0 +1,8 @@
+{
+  "name": "@antdv/pro-layout",
+  "version": "0.0.1",
+  "description": "@antdv/pro-layout",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "private": true
+}
