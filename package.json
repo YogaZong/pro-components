@@ -4,6 +4,12 @@
   "main": "index.js",
   "author": "Yoga Zong",
   "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "node ./scripts/bootstrap.js"
+  },
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
@@ -11,6 +17,7 @@
     "@types/node": "^14.11.2",
     "@types/warning": "^3.0.0",
     "@umijs/fabric": "^2.2.2",
+    "@umijs/utils": "^3.2.22",
     "@vue/babel-plugin-jsx": "^1.0.0-rc.3",
     "babel-loader": "^8.1.0",
     "babel-plugin-import": "^1.13.0",

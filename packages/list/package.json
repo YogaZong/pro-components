@@ -1,7 +1,7 @@
 {
-  "name": "@antdv/pro-layout",
+  "name": "@antdv/pro-list",
   "version": "1.0.0-beta.1",
-  "description": "@antdv/pro-layout",
+  "description": "@antdv/pro-list",
   "module": "lib.index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -30,7 +30,7 @@
     "yogazong <zongyujia@me.com> (https://github.com/yogazong)"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/yogazong/pro-components/tree/master/packages/layout#readme",
+  "homepage": "https://github.com/yogazong/pro-components/tree/master/packages/list#readme",
   "peerDependencies": {
     "ant-design-vue": "2.x",
     "vue": "^3.x"
