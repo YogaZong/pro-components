@@ -11,12 +11,12 @@
     "noImplicitReturns": true,
     "suppressImplicitAnyIndexErrors": true,
     "declaration": true,
-    "skipLibCheck": true
-    // "paths": {
-    //     "@ant-design/pro-layout": [
-    //         "./packages/layout/src/index.tsx"
-    //     ],
-    // }
+    "skipLibCheck": true,
+     "paths": {
+         "@antdv/pro-card": [
+             "./packages/layout/src/index.tsx"
+         ]
+     }
     //     "@ant-design/pro-form": [
     //         "./packages/form/src/index.tsx"
     //     ],
@@ -46,5 +46,9 @@
     //     ]
     // }
   },
-  "include": ["**/src/**/*", ".eslintrc.js"]
+  "include": [
+    "**/src/**/*",
+    "scripts/**/*",
+    ".eslintrc.js"
+  ]
 }
