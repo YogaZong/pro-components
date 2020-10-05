@@ -19,7 +19,7 @@ const { yParser } = require('@umijs/utils');
     console.log(shortName);
     const name = `@antdv/pro-${shortName}`;
 
-    // 每个 Pro 组件的 package/shortName/package.json
+    // 每个 Pro 组件的 package/${shortName}/package.json
     const pkgJSONPath = join(__dirname, '..', 'packages', shortName, 'package.json');
     /**
      * fs.existsSync(path: string | Buffer | url): boolean
@@ -42,7 +42,7 @@ const { yParser } = require('@umijs/utils');
           url: 'https://github.com/yogazong/pro-components',
         },
         browserslist: ['last 2 versions', 'Firefox ESR', '> 1%', 'ie >= 11'],
-        keywords: ['antd', 'admin', 'ant-design', 'ant-design-pro'],
+        keywords: ['antdv', 'admin', 'ant-design-vue', 'ant-design-vue-pro'],
         authors: [
           'yogazong <zongyujia@me.com> (https://github.com/yogazong)',
         ],

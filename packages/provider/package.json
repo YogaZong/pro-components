@@ -1,0 +1,41 @@
+{
+  "name": "@antdv/pro-provider",
+  "version": "1.0.0-beta.1",
+  "description": "@antdv/pro-provider",
+  "module": "lib.index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "src",
+    "dist",
+    "es"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yogazong/pro-components"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 11"
+  ],
+  "keywords": [
+    "antd",
+    "admin",
+    "ant-design",
+    "ant-design-pro"
+  ],
+  "authors": [
+    "yogazong <zongyujia@me.com> (https://github.com/yogazong)"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/yogazong/pro-components/tree/master/packages/provider#readme",
+  "peerDependencies": {
+    "ant-design-vue": "2.x",
+    "vue": "^3.x"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
